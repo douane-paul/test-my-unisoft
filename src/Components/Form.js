@@ -64,8 +64,8 @@ class Form extends React.Component {
 
                     <input type="submit" value="Se connecter" />
 
-                    {this.state.validCredentials && <p>Vous etes maintenant connecté</p>}
-                    {this.state.invalidCredentials && <p>Adresse mail ou mot de passe incorect</p>}
+                    {this.state.validCredentials && <p id="validCredentials">Vous etes maintenant connecté</p>}
+                    {this.state.invalidCredentials && <p id="invalidCredentials">Adresse mail ou mot de passe incorect</p>}
                 </form>
             </div>
         );

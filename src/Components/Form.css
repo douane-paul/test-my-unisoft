@@ -70,3 +70,11 @@
         color: dimgrey;
     }
 
+    #validCredentials{
+        color: green;
+    }
+
+    #invalidCredentials{
+        color: red;
+    }
+
